@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react'
 import { useState } from 'react'
-import { getMovies } from '../api'
+import { getMovies } from '../data/api'
 import './Row.css'
 
 const imageHost = 'https://image.tmdb.org/t/p/original/'
