@@ -1,5 +1,5 @@
 import './App.css';
-import categories from './data/api';
+import categories from '../data/api';
 import Banner from './components/Banner';
 import Nav from './components/Nav';
 import Row from './components/Row';

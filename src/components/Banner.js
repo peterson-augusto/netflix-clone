@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react'
 import { useState } from 'react'
 import './Banner.css'
-import categories, { getMovies } from '../data/api';
+import categories, { getMovies } from '../../data/api';
 
 export default function Banner() {
     const [movie, setMovie] = useState({});
